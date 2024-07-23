@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NXF5ZY7FV4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NXF5ZY7FV4');
+</script>
+</head>
+<body>
+<h1>Alex Legault</h1>
+<ul style="list-style-type: none">
+    <li><a href="about.html">About</a></li>
+    <li><a href="writing.html">Writing</a></li>
+    <li><a href="books.html">Books</a></li>
+    <li><a href="https://www.linkedin.com/in/alexlegault/"
+        onclick="gtag('event', 'click', {'event_category': 'outbound', 'event_label': 'external_link'}); 
+                    setTimeout(function(){window.location.href='https://www.linkedin.com/in/alexlegault/';}, 100); 
+                    return false;">
+            Professional experience</a></li>
+    <li>
+        <a href="https://github.com/arlegault" 
+           onclick="gtag('event', 'click', {'event_category': 'outbound', 'event_label': 'external_link'}); 
+                    setTimeout(function(){window.location.href='https://github.com/arlegault';}, 100); 
+                    return false;">
+            Building tech debt in public
+        </a>
+    </li>
+    <li><a href="side_projects.html">Side projects</a></li>
+</ul>
+
+<div class = "center">
+<h2>Design Systems/h2>
+<p> 
+    I have a love hate relationship with design systems. 
+    
+    <strong>The case for them</strong>
+    When I got to Carta, they already had a well defined system and component library. 
+    I was blown away at the speed it enabled teams to move. Engineers with little to no 
+    front end coding experience could grab components off the shelf to hack together 
+    features that yielded a generally consistent and usable end product. 
+    
+    If UX resources were tied up, PMs could read the guidelines, take those same components of the shelf, and end up with something that didn't totally offend the design team. 
+    
+    Over time, this also meant that Carta needed less FE engineers
+    
+    At PitchBook, we often found ourselves fighting a battle of consistency. We had some semblance of a design system eventually, but we frequently violated it and constantly worried that low engagement with certain features was due ot lack of consistency. 
+    
+    <strong>The case against</strong>
+    creates bad incentives
+    -optimize for needs of the user (builder)vs optimize for consistency with system(system owner)? ex: wire inst
+    -eng wants to do easy thing (system) vs PM/other do what they think user needs</p>
+</div>
+
+</body>
+</html>
