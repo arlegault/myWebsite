@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Writing</title>
+    <title>Consulting</title>
     <link rel="stylesheet" href="mystyle.css">
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXF5ZY7FV4"></script>
@@ -13,7 +13,6 @@
 
   gtag('config', 'G-NXF5ZY7FV4');
 </script>
-
 </head>
 <body>
 <h1>Alex Legault</h1>
@@ -21,7 +20,11 @@
     <li><a href="about.html">About</a></li>
     <li><a href="writing.html">Writing</a></li>
     <li><a href="books.html">Books</a></li>
-    <li><a href="https://www.linkedin.com/in/alexlegault/">Professional experience</a></li>
+    <li><a href="https://www.linkedin.com/in/alexlegault/"
+        onclick="gtag('event', 'click', {'event_category': 'outbound', 'event_label': 'external_link'}); 
+                    setTimeout(function(){window.location.href='https://www.linkedin.com/in/alexlegault/';}, 100); 
+                    return false;">
+            Professional experience</a></li>
     <li>
         <a href="https://github.com/arlegault" 
            onclick="gtag('event', 'click', {'event_category': 'outbound', 'event_label': 'external_link'}); 
@@ -31,22 +34,25 @@
         </a>
     </li>
     <li><a href="side_projects.html">Side projects</a></li>
-    <!-- <li><a href="consulting.html">Consulting</a></li> -->
+    <li><a href="consulting.html">Consulting</a></li>
 </ul>
 
 <div class = "center">
-<h2>Writing</h2>
-<p>
-    Writing helps me clarify my thoughts. Sharing my work publicly encourages me to aim for 
-    higher standards in both writing and thinking. I believe it's important to share ideas 
-    and get feedback from others, a practice we don't utilize enough. Over time, I hope 
-    this will help my writing and ideas to grow and improve.
-</p>
-<!-- <li><a href="persistence.html">Persistence</a></li> -->
-<!-- <li><a href="transitioning_to_product.html">Transitioning to Product</a></li> -->
-<!-- <li><a href="building_context.html">Context</a></li> -->
-<!-- <li><a href="seattle_tech.html">Why doesn't Seattle have more startups?</a></li> -->
-<!-- <li><a href="design_systems.html">Design Systems</a></li> -->
+<h2>Consulting</h2>
+<p>I'm avialable on a limited basis for product consulting. Please email me at <a href="mailto:hello@alexlegault.com">hello@alexlegault.com</a> if you'd like to discuss.</p>
+<br>
+<br>
+<p>A few quotes from folks I've worked with:</p>
+<ul>
+    <li>xxx</li>
+    <li>xxx</li>
+    <li>xxx</li>
+    <li>xxx</li>
+    <li>xxx</li>
+    <li>xxx</li>
+    <li>xxx</li>
+</ul>
 </div>
+
 </body>
 </html>
