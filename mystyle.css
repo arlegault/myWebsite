@@ -2,4 +2,25 @@
   margin: auto;
   width: 50%;
   padding: 10px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.center p {
+  margin-bottom: 1.2em;
+}
+
+.center h2 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.center h3 {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.center h4 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
