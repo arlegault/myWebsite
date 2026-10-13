@@ -1,44 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="mystyle.css">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NXF5ZY7FV4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Building Context | Alex Legault</title>
+  <meta name="description" content="Learn the problem in excruciating detail before you build. Notes on how Carta's early workflow became the product.">
+  <link rel="canonical" href="https://alexlegault.com/building_context.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="mystyle.css">
+  <meta property="og:site_name" content="Alex Legault">
+  <meta property="og:title" content="Building Context | Alex Legault">
+  <meta property="og:description" content="Learn the problem in excruciating detail before you build. Notes on how Carta's early workflow became the product.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alexlegault.com/building_context.html">
+  <meta property="og:image" content="https://alexlegault.com/AL_headshot.jpeg">
+  <meta property="og:image:alt" content="Headshot of Alex Legault">
+  <meta property="og:image:width" content="200">
+  <meta property="og:image:height" content="200">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Building Context | Alex Legault">
+  <meta name="twitter:description" content="Learn the problem in excruciating detail before you build. Notes on how Carta's early workflow became the product.">
+  <meta name="twitter:image" content="https://alexlegault.com/AL_headshot.jpeg">
+  <meta name="twitter:image:alt" content="Headshot of Alex Legault">
+  <meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141413" media="(prefers-color-scheme: dark)">
+  <meta name="robots" content="noindex">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXF5ZY7FV4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-NXF5ZY7FV4');
-</script>
-
+    gtag('config', 'G-NXF5ZY7FV4');
+  </script>
 </head>
 <body>
-<h1>Alex Legault</h1>
-<ul style="list-style-type: none">
-    <li><a href="about.html">About</a></li>
-    <li><a href="writing.html">Writing</a></li>
-    <li><a href="books.html">Books</a></li>
-    <li><a href="https://www.linkedin.com/in/alexlegault/" target="_blank">Professional experience</a></li>
-    <li><a href="https://github.com/arlegault" target="_blank">Building tech debt in public</a></li>
-    <li><a href="side_projects.html">Side projects</a></li>
-    <!-- <li><a href="consulting.html">Consulting</a></li> -->
-  </ul>
-<h2>Building Context</h2>
-
-<div class = "center">
-<p>"The very first problem Henry wanted to solve was the management of physical stock certificates. He hired two paralegals immediately and discovered that it took $150 to make and print each certificate, as well as $20 to ship via FedEx. “We learned the whole workflow step by step in great detail and replicated exactly what they did in real life, but online."
-
-For all you current and aspiring product folks out there this is exactly 👏how 👏we 👏build 👏today, nearly 10 years later. And it is exactly what has worked for me throughout my career.
-
-You must learn the problem you are solving in excruciating detail. Today my team spends days in the trenches with our fund administration team mapping their workflows, and even doing them ourselves until we know how every debit and credit should fall. If you don't have the luxury of shadowing your customers in house, go to where they are. Get scrappy and find a way to not only learn about them, but live as them.
-
-As Brian Chesky puts it in -> https://lnkd.in/gCSqh_7Z Go sleep on their couch.
-
-Only then, with this deep understanding, can we begin to form our visions for the future, make our hypotheses, and starting sprinting towards our MVPs. This is how great products are built.
-
-For more on how Carta won our first 100 customers checkout Unusual Ventures post below. If you want to build great products and this mindset speaks to you, Carta is hiring!</p>
+  <div class="center">
+    <header>
+      <h1>Alex Legault</h1>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="writing.html">Writing</a></li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="https://www.linkedin.com/in/alexlegault/" target="_blank" rel="noopener" onclick="gtag('event','click',{'event_category':'outbound','event_label':'external_link'});">Professional experience</a></li>
+          <li><a href="https://github.com/arlegault" target="_blank" rel="noopener" onclick="gtag('event','click',{'event_category':'outbound','event_label':'external_link'});">Building tech debt in public</a></li>
+          <li><a href="side_projects.html">Side projects</a></li>
+          <!-- <li><a href="consulting.html">Consulting</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Building Context</h2>
+      <p>"The very first problem Henry wanted to solve was the management of physical stock certificates. He hired two paralegals immediately and discovered that it took $150 to make and print each certificate, as well as $20 to ship via FedEx. “We learned the whole workflow step by step in great detail and replicated exactly what they did in real life, but online."</p>
+      <p>For all you current and aspiring product folks out there this is exactly 👏how 👏we 👏build 👏today, nearly 10 years later. And it is exactly what has worked for me throughout my career.</p>
+      <p>You must learn the problem you are solving in excruciating detail. Today my team spends days in the trenches with our fund administration team mapping their workflows, and even doing them ourselves until we know how every debit and credit should fall. If you don't have the luxury of shadowing your customers in house, go to where they are. Get scrappy and find a way to not only learn about them, but live as them.</p>
+      <p>As Brian Chesky puts it in -&gt; https://lnkd.in/gCSqh_7Z Go sleep on their couch.</p>
+      <p>Only then, with this deep understanding, can we begin to form our visions for the future, make our hypotheses, and starting sprinting towards our MVPs. This is how great products are built.</p>
+      <p>For more on how Carta won our first 100 customers checkout Unusual Ventures post below. If you want to build great products and this mindset speaks to you, Carta is hiring!</p>
+    </main>
+  </div>
 </body>
 </html>

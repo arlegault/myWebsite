@@ -1,56 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Persistence</title>
-    <link rel="stylesheet" href="mystyle.css">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NXF5ZY7FV4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Persistence | Alex Legault</title>
+  <meta name="description" content="A chart of feature adoption that stays flat, then suddenly takes off, and the question of when to keep going.">
+  <link rel="canonical" href="https://alexlegault.com/persistence.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="mystyle.css">
+  <meta property="og:site_name" content="Alex Legault">
+  <meta property="og:title" content="Persistence | Alex Legault">
+  <meta property="og:description" content="A chart of feature adoption that stays flat, then suddenly takes off, and the question of when to keep going.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alexlegault.com/persistence.html">
+  <meta property="og:image" content="https://alexlegault.com/AL_headshot.jpeg">
+  <meta property="og:image:alt" content="Headshot of Alex Legault">
+  <meta property="og:image:width" content="200">
+  <meta property="og:image:height" content="200">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Persistence | Alex Legault">
+  <meta name="twitter:description" content="A chart of feature adoption that stays flat, then suddenly takes off, and the question of when to keep going.">
+  <meta name="twitter:image" content="https://alexlegault.com/AL_headshot.jpeg">
+  <meta name="twitter:image:alt" content="Headshot of Alex Legault">
+  <meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141413" media="(prefers-color-scheme: dark)">
+  <meta name="robots" content="noindex">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXF5ZY7FV4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-NXF5ZY7FV4');
-</script>
-
+    gtag('config', 'G-NXF5ZY7FV4');
+  </script>
 </head>
 <body>
-<h1>Alex Legault</h1>
-<ul style="list-style-type: none">
-    <li><a href="about.html">About</a></li>
-    <li><a href="writing.html">Writing</a></li>
-    <li><a href="books.html">Books</a></li>
-    <li><a href="https://www.linkedin.com/in/alexlegault/" target="_blank">Professional experience</a></li>
-    <li><a href="https://github.com/arlegault" target="_blank">Building tech debt in public</a></li>
-    <li><a href="side_projects.html">Side projects</a></li>
-    <!-- <li><a href="consulting.html">Consulting</a></li> -->
-</ul>
-<div class = "center">
-    <h2>Persistence</h2>
-    <img src="persistence.jpeg" width="75%">
-    <p>I call this chart "persistence".
+  <div class="center">
+    <header>
+      <h1>Alex Legault</h1>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="writing.html">Writing</a></li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="https://www.linkedin.com/in/alexlegault/" target="_blank" rel="noopener" onclick="gtag('event','click',{'event_category':'outbound','event_label':'external_link'});">Professional experience</a></li>
+          <li><a href="https://github.com/arlegault" target="_blank" rel="noopener" onclick="gtag('event','click',{'event_category':'outbound','event_label':'external_link'});">Building tech debt in public</a></li>
+          <li><a href="side_projects.html">Side projects</a></li>
+          <!-- <li><a href="consulting.html">Consulting</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Persistence</h2>
+      <img class="chart" src="persistence.jpeg" width="2048" height="909" alt="Line chart titled Persistence. Feature adoption stays near zero, then rises sharply.">
+      <p>I call this chart "persistence".</p>
+      <p>How do you know when to be persistent and when to give up?</p>
+      <!--
+      <p>
+      But we had conviction. This was a risk worth taking. So we kept pushing. 
+      Come hell or high water, we would crack the code on product adoption in April. 
+      We threw the kitchen sink at the problem. Then one day, we finally saw someone 
+      successfully use our feature. Then another. We now have over 50% customer 
+      adoption and growing fast.
 
-How do you know when to be persistent and when to give up?
-</p>
-<!--
-<p>
-But we had conviction. This was a risk worth taking. So we kept pushing. 
-Come hell or high water, we would crack the code on product adoption in April. 
-We threw the kitchen sink at the problem. Then one day, we finally saw someone 
-successfully use our feature. Then another. We now have over 50% customer 
-adoption and growing fast.
+      The line between doubling down on a losing bet and a story like this one isn't always clear.
 
-The line between doubling down on a losing bet and a story like this one isn't always clear.
-
-At Carta, we optimize for taking risks and having the patience to let our teams 
-play it out. As Henry often says: If you ask most companies, what do you do 
-when somebody tries something and they fail at it? They'll say, "Well, we're 
-an outcome-based company. Results matter." We're an input based company, not an 
-output based company. The results will be the results. What we question is did we 
-do it the right way?
- </p>
--->
-</div>
+      At Carta, we optimize for taking risks and having the patience to let our teams 
+      play it out. As Henry often says: If you ask most companies, what do you do 
+      when somebody tries something and they fail at it? They'll say, "Well, we're 
+      an outcome-based company. Results matter." We're an input based company, not an 
+      output based company. The results will be the results. What we question is did we 
+      do it the right way?
+       </p>
+      -->
+    </main>
+  </div>
 </body>
 </html>
