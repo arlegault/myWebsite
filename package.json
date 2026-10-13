@@ -1,0 +1,14 @@
+{
+  "name": "alexlegault-site",
+  "private": true,
+  "description": "Static site for alexlegault.com. Build output in _site/ is what gets uploaded to S3.",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve",
+    "test": "eleventy && node --test"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "html-validate": "^10.0.0"
+  }
+}
